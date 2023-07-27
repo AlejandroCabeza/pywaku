@@ -2,7 +2,8 @@
 # Framework Imports
 # Third-Party Imports
 # Project Imports
-from src.api.rpc import WakuRpcClient, WakuVersionResponse, WakuInfoResponse
+from core.clients.rpc import WakuRpcClient
+from .responses import WakuVersionResponse, WakuInfoResponse
 
 
 class DebugApi:

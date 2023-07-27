@@ -1,9 +1,9 @@
 # Python Imports
 # Framework Imports
 # Third-Party Imports
-from pydantic import BaseModel
 # Project Imports
+from pydantic import BaseModel
 
 
-class BaseRequest(BaseModel):
+class BaseWakuModel(BaseModel):
     pass
