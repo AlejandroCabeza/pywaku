@@ -2,7 +2,7 @@
 # Framework Imports
 # Third-Party Imports
 # Project Imports
-from core.clients.rpc import WakuRpcClient
+from core import WakuRpcClient
 from .responses import WakuVersionResponse, WakuInfoResponse
 
 
