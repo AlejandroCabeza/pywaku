@@ -1,0 +1,3 @@
+tinyrpc==1.1.7
+requests==2.31.0
+pydantic==2.1.1
